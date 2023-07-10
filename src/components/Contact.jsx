@@ -29,36 +29,6 @@ function Contact() {
 
   return (
     <div className="main">
-      {/* <nav className="delivery-nav">
-        <div className="container">
-          <div className="delivery-img">
-            <Link to={`/`}>
-              <img src="photos/zomato.webp" alt="" />
-            </Link>
-
-            <div className="delivery-search">
-              <div className="searchbox">
-                <div className="search-city-delivery">
-                  <i className="fa-solid fa-location-dot"></i>
-                  <input type="text" placeholder="Connaught Place, New Delhi" />
-                  <i className="fa-solid fa-sort-up"></i>|
-                </div>
-                <div className="search-restaurant-delivery">
-                  <i className="fa-solid fa-magnifying-glass"></i>
-                  <input
-                    type="text"
-                    placeholder="Search for restaurant, cuisine or a dish"
-                  />
-                </div>
-              </div>
-              <div className="loginregister">
-                <p><a onClick={openLoginModal}>Daxil ol</a></p>
-                <p><a onClick={openSignupModal}>Qeydiyyatdan keç</a></p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </nav> */}
       <section>
         <div className="bg-img">
           <div className="img-textt">
