@@ -204,34 +204,6 @@ function WhoWeAre() {
             </div>
           ))}
         </div>
-        {/* <div className="blog-1">
-            <img src="/photos/blog-1.png" alt="" />
-            <p>Vaibhav Kumar | 12 Jun 2023</p>
-            <h5>Introducing Zomato Food Trends: Data</h5>
-            <p>
-              Tailor-made for the restaurant industry, <br /> Zomato Food Trends
-              is a platform that aims to <br /> provide valuable market insights
-              to restaurants <br /> for their business growth.
-            </p>
-          </div>
-          <div className="blog-2">
-            <img src="/photos/blog-2.png" alt="" />
-            <p>Vishwas Sharma | 26 May 2023</p>
-            <h5>From the Streets of Bharat</h5>
-            <p>
-              A recap on how we unlocked the next (food) <br /> revolution by
-              launching our services in over <br /> 700 cities – painting our
-              country red!
-            </p>
-          </div>
-          <div className="blog-3">
-            <img src="/photos/blog-3.png" alt="" />
-            <p>Deepinder Goyal | 19 May 2023</p>
-            <h5>Q4FY23 shareholders’ letter and results</h5>
-            <p>
-              A quick capture of headline results from this <br /> quarter
-            </p>
-          </div> */}
       </div>
       <div className="img-collage">
         <div className="header-img">

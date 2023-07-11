@@ -68,53 +68,60 @@ function Contact() {
               <i className="fa-solid fa-caret-down"></i>
             </div>
           </div>
-          <div className="inputBox">
-            <input
-              type="text"
-              className="name"
-              name="name"
-              value={name}
-              onChange={handleName}
-              required="requried"
-            />
-            <span>Full Name</span>
-            <p className="star-1">*</p>
-          </div>
-          <div className="inputBox">
-            <input
-              type="email"
-              name="email"
-              className="email"
-              value={email}
-              onChange={handleemail}
-              required="requried"
-            />
-            <span>Email Address</span>
-            <p className="star-2">*</p>
-          </div>
-          <div className="inputBox">
-            <input type="text" className="num" name="num" required="required" />
-            <span>Mobile Number (optional)</span>
-          </div>
-          <div className="inputBox">
-            <textarea
-              name="text"
-              cols="70"
-              rows="40"
-              value={message}
-              onChange={handleMessage}
-              required="requried"
-            ></textarea>
-            <span>Type text</span>
-            <p className="star-3">*</p>
-          </div>
-          <Link to={"/feedback"}>
-            <div className="button_feedback">
-              <button onClick={handleSubmit} type="submit">
-                Submit feedback
-              </button>
+          <form action="">
+            <div className="inputBox">
+              <input
+                type="text"
+                className="name"
+                name="name"
+                value={name}
+                onChange={handleName}
+                required="requried"
+              />
+              <span>Full Name</span>
+              <p className="star-1">*</p>
             </div>
-          </Link>
+            <div className="inputBox">
+              <input
+                type="email"
+                name="email"
+                className="email"
+                value={email}
+                onChange={handleemail}
+                required="requried"
+              />
+              <span>Email Address</span>
+              <p className="star-2">*</p>
+            </div>
+            <div className="inputBox">
+              <input
+                type="text"
+                className="num"
+                name="num"
+                required="required"
+              />
+              <span>Mobile Number (optional)</span>
+            </div>
+            <div className="inputBox">
+              <textarea
+                name="text"
+                cols="70"
+                rows="40"
+                value={message}
+                onChange={handleMessage}
+                required="requried"
+              ></textarea>
+              <span>Type text</span>
+              <p className="star-3">*</p>
+            </div>
+            <Link to={"/feedback"}>
+              <div className="button_feedback">
+                <button onClick={handleSubmit} type="submit">
+                  Submit feedback
+                </button>
+              </div>
+            </Link>
+          </form>
         </div>
         <div className="report">
           <div className="report-safety">
