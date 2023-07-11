@@ -42,7 +42,7 @@
     padding: 20px;
     color: rgb(181, 181, 181);
     pointer-events: none;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 .star-1 {
@@ -183,7 +183,7 @@
     gap: 2rem;
 }
 
-.contact-form form{
+.contact-form form {
     display: flex;
     flex-direction: column;
     gap: 2rem;
